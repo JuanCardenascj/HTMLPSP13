@@ -2,19 +2,46 @@
 <html> <!--Etiqueta raiz de todo documento HTML-->
 <head> <!--Se agregar caracteristicas-->
     <title>Hansary</title> <!--Titulo pagina web-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body> <!--Contenido de toda la web-->
     <header> <!--Utiliza agrupar Links-->
         <h1>Hansary</h1>
     </header>
+    <main>
     <section> <!--Utiliza definir sesiones-->
         <article> <!--Utiliza definir contenido-->
-            <h2>Vulnerabilidad CiberSeguridd</h2> <!--Utiliza Subtitulo-->
+            <h2>Vulnerabilidad CiberSeguridad</h2> <!--Utiliza Subtitulo-->
             <p>La vulnerabilidad de las Claves de Acceso en el Ambiente Digital</p> <!--Utiliza Descripción-->
-            <img src="Masterl.jpeg"/> <!--Añade imagene src, width define tamaño-->
+            <img src="Img/Masterl.jpeg"/> <!--Añade imagene src, width define tamaño-->
             <p>Desde hace un tiempo y hoy en dia se viene presentando la vulnerabilidad en los datos personales de todas las personas a nivel mundial, donde las personas son engañadas por otras con falsa publicidad, alertas, premios, etc... La protección de las cuentas y datos personales en internet se ha convertido en en esencial debido al incremento de ciberataques, estafas y sustracciónes de identidad.!</p> <!--Añade texto en general-->
         </article>
     </section>
-    <footer></footer> <!--Utiliza pie de pagina-->
+    <section>
+        <h2>¿Cómo crear una contraseña segura?</h2>
+        <ul>
+            <li>Utiliza al menos de 8 a 12 caracteres.</li>
+            <li>Incluye letras mayúsculas y minúsculas.</li>
+            <li>Agrega números y símbolos</li>
+            <li>No uses información personal(Nombre, Fecha de nacimiento).</li>
+            <li>Cambia la contraseña regularme(Cada 1 o 2 meses).</li>
+            <li>No compartas la contraseña con segundos o terceros</li>
+            <li>No permitas que otros ingresen tu contraseña</li>
+            <li>No utilices las herramientas busqueda para crear contraseñas</li>
+            <li>No utilices el auto completar de las herramientas virtuales</li>
+            <li>No guardes la contraseña por defecto en equipos publicos</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Verifica la fortaleza de tu contraseña</h2>
+        <input type="password" id="passwordInput" placeholder="Introduce tu contraseña">
+        <button onclick="checkPassword()">Verificar</button>
+        <p id="passwordStrength"></p>
+    </section>
+</main>
+    <footer><!--Utiliza pie de pagina-->
+        <p>&copy; 2024 CiberSeguridad. Todos los derechos reservados</p>
+    </footer>
+    <script src="Img/Script.jpeg"></script> 
 </body>
 </html>
